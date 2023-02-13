@@ -1,0 +1,447 @@
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 100rem) {
+    .hero{
+        width: 100%;
+    }
+
+    .hero-inner{
+        margin-right: 25rem;
+    }
+
+    
+    .newstext h4{
+        font-size: 3.4rem;
+    }
+
+    .newstext p{
+        font-size: 1.2rem;
+    }
+
+    .newsletter form{
+        width: 30%;
+    }
+
+    #install img{
+        width: 55%;
+    }
+    
+  }
+
+  @media (max-width: 91rem) {
+    .newstext h4{
+        font-size: 3rem;
+    }
+
+    .newstext p{
+        font-size: 1rem;
+    }
+
+    .newsletter form{
+        width: 30%;
+    }
+  }
+
+  @media (max-width: 83rem) {
+    .hero-inner{
+        margin-right: 15rem;
+    }
+
+    .newstext h4{
+        font-size: 2.6rem;
+    }
+
+    .newstext p{
+        font-size: 1rem;
+    }
+
+    .newsletter form{
+        width: 30%;
+    }
+  }
+
+  @media (max-width: 75rem) {
+    .hero-inner{
+        margin-right: 10rem;
+    }
+
+    .newstext h4{
+        font-size: 2.2rem;
+    }
+
+    .newstext p{
+        font-size: 0.8rem;
+    }
+
+    .newsletter form{
+        width: 30%;
+    }
+  }
+
+  @media (max-width: 72rem) {
+
+    .logo{
+        width: 8%
+    }
+
+    .hero-inner{
+        margin-right: 5rem;
+    }
+
+    .hero-text h3{
+        font-size: 1.4rem;
+    }
+
+    .hero-text h1{
+        font-size: 4.6rem;
+    }
+
+    .hero-text h2{
+        font-size: 4rem;
+    }
+
+    .hero-text h5{
+        font-size: 1.2rem;
+    }
+
+    .cta h4{
+        font-size: 1.6rem;
+    }
+
+    .cta h2{
+        font-size: 3rem;
+    }
+
+    .featured-inner{
+        justify-content: space-evenly;
+    }
+
+    .banner-box{
+        width: 70%;
+        padding: 4rem;
+    }
+
+    .big-banner{
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 0 4rem;
+        gap: 2rem;
+        min-width: 30%;
+        align-items: center;
+    }
+
+    .small-banner{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        justify-content: center;
+        padding: 0 4rem;
+        gap: 2rem;
+    }
+
+    .small-banner .banner-3{
+        background-position: top 1% right 0;
+    }
+
+    .small-banner .banner-2{
+        background-position: top 20% right 0;
+    }
+
+    .newsletter{
+        padding: 0 10rem;
+    }
+
+    .newstext h4{
+        font-size: 2rem;
+    }
+
+    .newstext p{
+        font-size: 0.8rem;
+    }
+}
+
+
+
+  /**************************/
+  /* BELOW 1200px (Landscape Tablets) */
+  /**************************/
+  
+  @media (max-width: 75em) {
+    .hero-inner{
+        margin-right: 1rem;
+    }
+
+    .hero-text h3{
+        font-size: 1.2rem;
+    }
+
+    .hero-text h1{
+        font-size: 4rem;
+    }
+
+    .hero-text h2{
+        font-size: 3.4rem;
+    }
+
+    .hero-text h5{
+        font-size: 1rem;
+    }
+
+    .banner-box h2{
+        font-size: 3rem;
+    }
+
+    .banner-box span{
+        font-size: 1.4rem;
+    }
+
+    .newsletter{
+        padding: 0 5rem;
+    }
+  }
+  
+  
+  /**************************/
+  /* BELOW 944px (Tablets) */
+  /**************************/
+  
+  @media (max-width: 50rem) {
+    /* ADD breakpoint in navbar */
+    .navbar-list{
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 300px;
+        background-color: #ededed;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+        transition: 0.3s ease;
+        padding-left: 1rem;
+    }
+
+    .logo{
+        width: 10%;
+    }
+    
+    #close-nav{
+        display: block;
+    }
+
+    .navbar li{
+        margin-bottom: 25px;
+    }
+
+    #mobile-navbar{
+        display: flex;
+    }
+
+
+    .navbar-list.active{
+        display: flex;
+    }
+
+    .cta h4{
+        font-size: 1.4rem;
+    }
+
+    .cta h2{
+        font-size: 2.6rem;
+    }
+
+    .hero-inner{
+        margin-right: 1rem;
+    }
+
+    .hero-text h3{
+        font-size: 1.2rem;
+    }
+
+    .hero-text h1{
+        font-size: 3.4rem;
+    }
+
+    .hero-text h2{
+        font-size: 2.8rem;
+    }
+
+    .hero-text h5{
+        font-size: 1rem;
+    }
+
+    .banner-box h2{
+        font-size: 2.6rem;
+    }
+
+    .banner-box span{
+        font-size: 1.2rem;
+    }
+
+    .small-banner h2{
+        font-size: 2.4rem;
+    }
+
+    .small-banner h3{
+        font-size: 1.6rem;
+    }
+
+    
+  }
+  
+  /**************************/
+  /* BELOW 704px (Smaller tablets) */
+  /**************************/
+  
+  @media (max-width: 43rem) {
+    .cta h4{
+        font-size: 1.4rem;
+    }
+
+    .cta h2{
+        font-size: 2.2rem;
+    }
+
+    .big-banner .banner-one{
+        background-position: top 10% right 10%;
+    }
+
+    .newsletter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .newsletter .form{
+        width: 60%;
+    }
+
+    .hero-text h3{
+        font-size: 1.2rem;
+    }
+
+    .hero-text h1{
+        font-size: 3rem;
+    }
+
+    .hero-text h2{
+        font-size: 2.4rem;
+    }
+
+    .hero-text h5{
+        font-size: 1rem;
+    }
+
+    .banner-box h2{
+        font-size: 2.2rem;
+    }
+
+    .banner-box span{
+        font-size: 1.4rem;
+    }
+
+    
+
+  }
+  
+  /**************************/
+  /* BELOW 544px (Phones) */
+  /**************************/
+  
+  @media (max-width: 36rem) {
+    
+    .hero-text h3{
+        font-size: 1.2rem;
+    }
+
+    .hero-text h1{
+        font-size: 2rem;
+    }
+
+    .hero-text h2{
+        font-size: 1.8rem;
+    }
+
+    .hero-text h5{
+        font-size: 1rem;
+    }
+
+    .footer{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        align-items: center;
+        justify-content: center;
+    }
+
+    .featured-products h2{
+        font-size: 2.4rem;
+    }
+
+    .cta h4{
+        font-size: 1rem;
+    }
+
+    .cta h2{
+        font-size: 1.8rem;
+    }
+
+    .banner-box h2{
+        font-size: 2rem;
+    }
+
+    .banner-box span{
+        font-size: 1.2rem;
+    }
+
+    .small-banner h2{
+        font-size: 20%
+    }
+
+    .small-banner h3{
+        font-size: 1.6rem;
+    }
+
+    .banner-box h2{
+        font-size: 150%;
+    }
+
+    .banner-box h3{
+        font-size: 1.4rem;
+    }
+
+    .banner-box button{
+        padding: 10% 20%;
+    }
+
+    .banner-box{
+        width: 100%;
+    }
+
+    .newsletter .form {
+        width: 100%;
+    }
+
+    /* cart html */
+
+    
+    
+  }
+    
+  
+  
+  @media (max-width: 32rem) {
+    
+    
+  }
+  
+  @media (max-width: 59em) {
+  
+ }

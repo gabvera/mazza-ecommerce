@@ -1,0 +1,19 @@
+{
+  "name": "simplified-javascript8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "parcel index.html cart.html",
+    "build": "parcel build index.html cart.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "item": "^3.0.0"
+  }
+}

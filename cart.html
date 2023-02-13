@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="script-cart.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="queries.css">
+    <link rel="stylesheet" href="style-cart.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    <section class="header">
+        <div class="container">
+            <div class="header-items">
+                <img src="./imgs/logodone.png" alt="Mazza's logo" class="logo">
+                <ul class="navbar-list">
+                        <a href="" class="bi bi-x" id="close-nav"></a>
+                        <li> <a class="navbar-items" href="index.html">Home</a> </li>
+                        <li> <a class="navbar-items" href="#">Shop</a> </li>
+                        <li> <a class="navbar-items" href="#membership">Membership</a> </li>
+                        <li> <a class="navbar-items" href="#contact">Contact</a> </li>
+                        <li class="cart-container"> 
+                        <a href="#" class="bi bi-cart navbar-items navbar-cart"></a>
+                        <div class="cart-number">1</div>
+                        
+                    </li>
+                </ul>
+                <div id="mobile-navbar">
+                    
+                    <i class="bi bi-list list-mobile"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cart-cta">
+        <div class="cart-cta-text">
+            <h4>Best Prices This Year</h4>
+            <p>Fit Your Wardrobe with Luxury Items</p>
+    </div>
+    </section>
+
+    <section class="cart-section">
+       <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+                <tbody class="cart-items">
+                        <tr class="invisible">
+                            <td><a href="#" id="remove-button"><i class="bi bi-x cart-remove"></i></a></td>
+                            <td id="cart-img"><div class="set-img"></div></td>
+                            <td id="cart-name">Cartoon Astronaut T-Shirts</td>
+                            <td id="cart-price">$118.19</td>
+                            <td><input id="cart-amount" type="text" value="1"></td>
+                            <td id="cart-total">$118.19</td>
+                        </tr>
+                </tbody>
+            </thead>
+       </table>
+    </section>
+
+    <section class="cart-add section-padding container">
+        <div class="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$ 335</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$ 335</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to checkout</button>
+        </div>
+    </section>
+
+    <footer class="section-padding footer" id="contact">
+        <div class="col">
+            <img src="imgs/logodone.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> 562 Wellington Road, Street 32, San Francisco</p>
+            <p><strong>Phone:</strong> +01 2222 365 /(+91) 01 2345 6789</p>
+            <p><strong>Address:</strong> 10:00 - 18:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-twitter"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-pinterest"></i>
+                    <i class="bi bi-youtube"></i>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact us</a>
+        </div>
+        
+        <div class="col">
+            <h4>My account</h4>
+            <a href="#">Sign in</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        
+        <div class="col" id="install">
+            <h4>Install app</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="imgs/pay/app.jpg" alt="">
+                <img src="imgs/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="imgs/pay/pay.png" alt="">
+        </div>
+    </footer>
+
+<section class="copyright">
+        <div class="copyright">
+            <p>&copy; 2021, Mazza LTDA - Webdev Ecommerce Template</p>
+        </div>
+</section>
+</body>
+</html>
