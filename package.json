@@ -5,7 +5,7 @@
   "main": "script.js",
   "scripts": {
     "start": "parcel index.html cart.html",
-    "build": "parcel build index.html cart.html script.js script-cart.js"
+    "build": "parcel build index.html cart.html"
   },
   "keywords": [],
   "author": "",
